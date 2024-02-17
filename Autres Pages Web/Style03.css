@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+.block1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.block2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.block3::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.color1{
+    background-color: blue;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color2{
+    background-color: red;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color3{
+    background-color: gold;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color4{
+    background-color: green;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color5{
+    background-color: black;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color6{
+    background-color: purple;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color7{
+    background-color: orange;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color8{
+    background-color: teal;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.color9{
+    background-color: tomato;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    float: right;
+}
+.end{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 50%;
+    margin: auto;
+    text-shadow: 2px 2px 2px red;
+    border-radius: 5px;
+}
+
+
+.pagination {
+    display: inline-block;
+    color: white;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
